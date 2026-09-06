@@ -1,0 +1,7 @@
+{
+  "name": "Text to Hyphen",
+  "id": "text-to-hyphen",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": ["figma"]
+}
