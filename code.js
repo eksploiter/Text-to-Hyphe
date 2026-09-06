@@ -82,6 +82,8 @@ figma.ui.onmessage = async (msg) => {
       }
 
       /*
+       * 중요!
+       *
        * textNode.characters = "-"
        * → 화면에 보이는 실제 텍스트가 바뀜
        *
@@ -94,6 +96,7 @@ figma.ui.onmessage = async (msg) => {
       changedCount++;
 
     } catch (error) {
+
       console.error(
         `레이어 이름 변경 실패: ${textNode.name}`,
         error
